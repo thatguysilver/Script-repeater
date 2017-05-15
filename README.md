@@ -4,13 +4,13 @@ Vim users! Are you tooo lazy to reach for the arrow keys and/or exclamation poin
 
 Basically, it runs a bash command every n seconds. Intended use is for testing extremely simple scripts while learning a new language, etc.
 
-##1. Make executable:
+1. **Make executable:**
 
 while in directory:
 
 $ chmod +x rept.py"
 
-##2. Use it by typing the following format:
+2. **Use it by typing the following format:&**
 
 $ ./rept.py <path> <interval>
 
