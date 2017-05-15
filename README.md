@@ -10,9 +10,9 @@ while in directory:
 
 $ chmod +x rept.py"
 
-2. **Use it by typing the following format:&**
+2. **Use it by typing the following format:**
 
-$ ./rept.py <path> <interval>
+$ ./rept.py \<path> \<interval>
 
 where interval is in seconds.  
 
