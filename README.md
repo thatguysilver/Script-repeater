@@ -4,6 +4,8 @@ Vim users! Are you tooo lazy to reach for the arrow keys and/or exclamation poin
 
 Basically, it runs a bash command every n seconds. Intended use is for testing extremely simple scripts while learning a new language, etc.
 
+Currently supports .html, .rs (only using Cargo) and .py.
+
 1. **Make executable:**
 
 while in directory:
