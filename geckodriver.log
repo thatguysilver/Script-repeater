@@ -356,3 +356,24 @@ JavaScript error: resource://app/modules/URLBarZoom.jsm, line 24: TypeError: win
 [Child 12914] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-tb8f7A/firefox-52.0.1+linuxmint1+serena/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 322
 [Child 12914] ###!!! ABORT: Aborting on channel error.: file /build/firefox-tb8f7A/firefox-52.0.1+linuxmint1+serena/ipc/glue/MessageChannel.cpp, line 2143
 [Child 12914] ###!!! ABORT: Aborting on channel error.: file /build/firefox-tb8f7A/firefox-52.0.1+linuxmint1+serena/ipc/glue/MessageChannel.cpp, line 2143
+1494946474418	geckodriver	INFO	Listening on 127.0.0.1:47018
+1494946475575	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.a3gLuZDmHELq
+1494946475576	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args []
+1494946475584	geckodriver::marionette	INFO	Connecting to Marionette on localhost:45777
+1494946477419	Marionette	INFO	Listening on port 45777
+1494946478945	Marionette	WARN	TLS certificate errors will be ignored for this session
+1494946651615	geckodriver	INFO	Listening on 127.0.0.1:38630
+1494946652765	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.cD01W0kpTk5q
+1494946652766	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args []
+1494946652774	geckodriver::marionette	INFO	Connecting to Marionette on localhost:34020
+1494946654573	Marionette	INFO	Listening on port 34020
+1494946656073	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://app/modules/URLBarZoom.jsm, line 24: TypeError: win is null
+[Child 13195] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-tb8f7A/firefox-52.0.1+linuxmint1+serena/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 322
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4C0001,name=PCrashReporter::Msg_AnnotateCrashReport) Channel error: cannot send/recv
+
+Crash Annotation GraphicsCriticalError: |[C0][GFX1-]: Receive IPC close with reason=AbnormalShutdown (t=3.40815) 
+###!!! [Child][MessageChannel] Error: (msgtype=0x4600D5,name=PContent::Msg_GraphicsError) Channel error: cannot send/recv
+
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
