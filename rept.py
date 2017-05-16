@@ -23,11 +23,12 @@ def repeat():
 
         print("Opening " + os.path.abspath(sys.argv[1]) + " in a new window.")
         
-        seconds = sys.argv[2]
+        #seconds = sys.argv[2]
         browser = webdriver.Firefox()
         browser.get('file://' + os.path.abspath(sys.argv[1]))
-        threading.Timer(int(seconds), repeat).start()
-        browser.navigate().refresh()
+        #threading.Timer(int(seconds), repeat).start()
+        while True:
+            browser.refresh()
 
 
 

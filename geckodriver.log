@@ -114,3 +114,245 @@ Crash Annotation GraphicsCriticalError: |[C0][GFX1-]: Receive IPC close with rea
 [Child 5127] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-tb8f7A/firefox-52.0.1+linuxmint1+serena/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 322
 [Child 5127] ###!!! ABORT: Aborting on channel error.: file /build/firefox-tb8f7A/firefox-52.0.1+linuxmint1+serena/ipc/glue/MessageChannel.cpp, line 2143
 [Child 5127] ###!!! ABORT: Aborting on channel error.: file /build/firefox-tb8f7A/firefox-52.0.1+linuxmint1+serena/ipc/glue/MessageChannel.cpp, line 2143
+1494943679721	geckodriver	INFO	Listening on 127.0.0.1:46197
+1494943680871	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.6il6eGXa2mGn
+1494943680872	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args []
+1494943680881	geckodriver::marionette	INFO	Connecting to Marionette on localhost:42523
+1494943682741	Marionette	INFO	Listening on port 42523
+1494943684352	Marionette	WARN	TLS certificate errors will be ignored for this session
+1494943689340	geckodriver	INFO	Listening on 127.0.0.1:45707
+1494943690474	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.3ZtvbdPn7COE
+1494943690475	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args []
+1494943690483	geckodriver::marionette	INFO	Connecting to Marionette on localhost:39945
+1494943692464	Marionette	INFO	Listening on port 39945
+1494943694080	Marionette	WARN	TLS certificate errors will be ignored for this session
+1494943698796	geckodriver	INFO	Listening on 127.0.0.1:49208
+1494943699942	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.eD7UH2MNr8Mc
+1494943699944	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args []
+1494943699951	geckodriver::marionette	INFO	Connecting to Marionette on localhost:41455
+1494943748918	geckodriver	INFO	Listening on 127.0.0.1:56502
+1494943750069	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.7riJzW56pWXL
+1494943750074	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args []
+1494943750081	geckodriver::marionette	INFO	Connecting to Marionette on localhost:33798
+1494943751996	Marionette	INFO	Listening on port 33798
+1494943753533	Marionette	WARN	TLS certificate errors will be ignored for this session
+1494943781198	geckodriver	INFO	Listening on 127.0.0.1:36699
+1494943782440	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.3VpHYfpKX1Ye
+1494943782441	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args []
+1494943782451	geckodriver::marionette	INFO	Connecting to Marionette on localhost:41455
+1494943785397	Marionette	INFO	Listening on port 41455
+1494943787661	Marionette	WARN	TLS certificate errors will be ignored for this session
+1494943794113	geckodriver	INFO	Listening on 127.0.0.1:43898
+1494943795277	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.skdB4NEB4lOw
+1494943795278	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args []
+1494943795286	geckodriver::marionette	INFO	Connecting to Marionette on localhost:40242
+1494943797379	Marionette	INFO	Listening on port 40242
+1494943798963	Marionette	WARN	TLS certificate errors will be ignored for this session
+1494943803977	geckodriver	INFO	Listening on 127.0.0.1:38598
+1494943805150	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.Q0wQ8A370eHp
+1494943805151	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args []
+1494943805158	geckodriver::marionette	INFO	Connecting to Marionette on localhost:39147
+1494943807218	Marionette	INFO	Listening on port 39147
+1494943808820	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: chrome://browser/content/tabbrowser.xml, line 3197: TypeError: this.tabs is undefined
+[Child 6629] WARNING: pipe error (14): Connection reset by peer: file /build/firefox-tb8f7A/firefox-52.0.1+linuxmint1+serena/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 322
+[Child 6629] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-tb8f7A/firefox-52.0.1+linuxmint1+serena/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 322
+[Child 6629] ###!!! ABORT: Aborting on channel error.: file /build/firefox-tb8f7A/firefox-52.0.1+linuxmint1+serena/ipc/glue/MessageChannel.cpp, line 2143
+[Child 6629] ###!!! ABORT: Aborting on channel error.: file /build/firefox-tb8f7A/firefox-52.0.1+linuxmint1+serena/ipc/glue/MessageChannel.cpp, line 2143
+
+###!!! [Child][MessageChannel] Error: (msgtype=0xF60004,name=PVsync::Msg_Unobserve) Channel error: cannot send/recv
+
+Hit MOZ_CRASH(MsgDropped) at /build/firefox-tb8f7A/firefox-52.0.1+linuxmint1+serena/ipc/glue/BackgroundChildImpl.cpp:143
+*************************
+A coding exception was thrown and uncaught in a Task.
+
+Full message: TypeError: NetworkError when attempting to fetch resource.
+Full stack: 
+*************************
+1494944831881	geckodriver	INFO	Listening on 127.0.0.1:37666
+1494944833025	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.SitPRFm1bE31
+1494944833026	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args []
+1494944833034	geckodriver::marionette	INFO	Connecting to Marionette on localhost:45042
+1494944835502	Marionette	INFO	Listening on port 45042
+1494944837325	Marionette	WARN	TLS certificate errors will be ignored for this session
+1494944843083	geckodriver	INFO	Listening on 127.0.0.1:46518
+1494944864257	geckodriver	INFO	Listening on 127.0.0.1:60998
+1494944864400	geckodriver	INFO	Listening on 127.0.0.1:40275
+1494944864463	geckodriver	INFO	Listening on 127.0.0.1:33296
+1494944864564	geckodriver	INFO	Listening on 127.0.0.1:40035
+1494944864668	geckodriver	INFO	Listening on 127.0.0.1:44721
+1494944864753	geckodriver	INFO	Listening on 127.0.0.1:55436
+1494944864843	geckodriver	INFO	Listening on 127.0.0.1:56714
+1494944865123	geckodriver	INFO	Listening on 127.0.0.1:47494
+1494944865158	geckodriver	INFO	Listening on 127.0.0.1:49394
+1494944865489	geckodriver	INFO	Listening on 127.0.0.1:48316
+1494944865639	geckodriver	INFO	Listening on 127.0.0.1:49957
+1494944865816	geckodriver	INFO	Listening on 127.0.0.1:50612
+1494944865851	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.FrU7JqvyPCbM
+1494944865856	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args []
+1494944865960	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.dbTxwEKU110b
+1494944865961	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args []
+1494944866012	geckodriver::marionette	INFO	Connecting to Marionette on localhost:43188
+1494944866023	geckodriver	INFO	Listening on 127.0.0.1:44889
+1494944866136	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.CSkLBhoY81eO
+1494944866137	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args []
+1494944866144	geckodriver	INFO	Listening on 127.0.0.1:39749
+1494944866177	geckodriver::marionette	INFO	Connecting to Marionette on localhost:33253
+1494944866178	geckodriver::marionette	INFO	Connecting to Marionette on localhost:43073
+1494944866253	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.KfAfpBESwH6F
+1494944866256	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args []
+1494944866297	geckodriver::marionette	INFO	Connecting to Marionette on localhost:41963
+1494944866326	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.yeBGxFH42PkP
+1494944866327	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args []
+1494944866336	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.5zDV1dG6vRpq
+1494944866343	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args []
+1494944866367	geckodriver::marionette	INFO	Connecting to Marionette on localhost:45848
+1494944866385	geckodriver::marionette	INFO	Connecting to Marionette on localhost:43064
+1494944866418	geckodriver	INFO	Listening on 127.0.0.1:33517
+1494944866489	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.ZLOxru20k3H7
+1494944866490	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args []
+1494944866511	geckodriver::marionette	INFO	Connecting to Marionette on localhost:33616
+1494944866542	geckodriver	INFO	Listening on 127.0.0.1:59090
+1494944866745	geckodriver	INFO	Listening on 127.0.0.1:43760
+1494944866988	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.LiRIShI6f2wL
+1494944866989	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args []
+1494944867028	geckodriver::marionette	INFO	Connecting to Marionette on localhost:37238
+1494944867082	geckodriver	INFO	Listening on 127.0.0.1:49694
+1494944867141	geckodriver	INFO	Listening on 127.0.0.1:51636
+1494944867181	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.hAAHLvU9Uvks
+1494944867191	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args []
+1494944867242	geckodriver::marionette	INFO	Connecting to Marionette on localhost:39307
+1494944867519	geckodriver	INFO	Listening on 127.0.0.1:58935
+1494944867724	geckodriver	INFO	Listening on 127.0.0.1:51158
+1494944868234	geckodriver	INFO	Listening on 127.0.0.1:51796
+1494944868751	geckodriver	INFO	Listening on 127.0.0.1:35122
+1494944868939	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.8KKOGmSGav7I
+1494944868940	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args []
+1494944869004	geckodriver::marionette	INFO	Connecting to Marionette on localhost:34437
+1494944869014	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.LyOjtIsvTYFJ
+1494944869077	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args []
+1494944869136	geckodriver::marionette	INFO	Connecting to Marionette on localhost:40145
+1494944869143	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.bYhhT9ivYT3Y
+1494944869163	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args []
+1494944869196	geckodriver::marionette	INFO	Connecting to Marionette on localhost:37320
+1494944869200	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.idQ6swKrCt2A
+1494944869201	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args []
+1494944869245	geckodriver	INFO	Listening on 127.0.0.1:55034
+1494944869337	geckodriver::marionette	INFO	Connecting to Marionette on localhost:33515
+1494944869399	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.zgW2HjXV3r8L
+1494944869407	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args []
+1494944869509	geckodriver::marionette	INFO	Connecting to Marionette on localhost:41050
+1494944869665	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.KurpDPfS4uyf
+1494944869666	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args []
+1494944869677	geckodriver	INFO	Listening on 127.0.0.1:37758
+1494944869771	geckodriver::marionette	INFO	Connecting to Marionette on localhost:40344
+1494944870003	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.l2w48NkDFLak
+1494944870005	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args []
+1494944870089	geckodriver::marionette	INFO	Connecting to Marionette on localhost:32832
+1494944870095	geckodriver	INFO	Listening on 127.0.0.1:50693
+1494944870332	geckodriver	INFO	Listening on 127.0.0.1:60926
+1494944999782	geckodriver	INFO	Listening on 127.0.0.1:34790
+1494944999949	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.NklQPb2wvbPJ
+1494944999950	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args []
+1494944999953	geckodriver::marionette	INFO	Connecting to Marionette on localhost:42116
+1494945003921	Marionette	INFO	Listening on port 42116
+1494945006641	Marionette	WARN	TLS certificate errors will be ignored for this session
+1494945094346	geckodriver	INFO	Listening on 127.0.0.1:44317
+1494945094554	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.zaZ1U484KSaV
+1494945094555	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args []
+1494945094580	geckodriver::marionette	INFO	Connecting to Marionette on localhost:45439
+1494945097216	Marionette	INFO	Listening on port 45439
+1494945098684	Marionette	WARN	TLS certificate errors will be ignored for this session
+1494945367785	geckodriver	INFO	Listening on 127.0.0.1:48554
+1494945367959	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.4UyTxiYHovSB
+1494945367960	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args []
+1494945367962	geckodriver::marionette	INFO	Connecting to Marionette on localhost:32914
+[Parent 6283] WARNING: pipe error (53): Connection reset by peer: file /build/firefox-tb8f7A/firefox-52.0.1+linuxmint1+serena/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 322
+[Parent 6283] WARNING: pipe error (56): Connection reset by peer: file /build/firefox-tb8f7A/firefox-52.0.1+linuxmint1+serena/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 322
+[Parent 6283] WARNING: pipe error (54): Connection reset by peer: file /build/firefox-tb8f7A/firefox-52.0.1+linuxmint1+serena/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 322
+[Parent 6283] WARNING: pipe error (52): Connection reset by peer: file /build/firefox-tb8f7A/firefox-52.0.1+linuxmint1+serena/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 322
+1494945386175	geckodriver	INFO	Listening on 127.0.0.1:46471
+1494945387322	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.sPibsj27iNQo
+1494945387323	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args []
+1494945387330	geckodriver::marionette	INFO	Connecting to Marionette on localhost:44110
+1494945389617	Marionette	INFO	Listening on port 44110
+1494945391253	Marionette	WARN	TLS certificate errors will be ignored for this session
+1494945427669	geckodriver	INFO	Listening on 127.0.0.1:57426
+1494945428826	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.3iR5N00WGAgm
+1494945428827	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args []
+1494945428836	geckodriver::marionette	INFO	Connecting to Marionette on localhost:45209
+1494945431095	Marionette	INFO	Listening on port 45209
+1494945432629	Marionette	WARN	TLS certificate errors will be ignored for this session
+1494945608926	geckodriver	INFO	Listening on 127.0.0.1:50969
+1494945610077	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.DdgUj7C3RzlO
+1494945610078	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args []
+1494945610086	geckodriver::marionette	INFO	Connecting to Marionette on localhost:42161
+1494945612006	Marionette	INFO	Listening on port 42161
+1494945613533	Marionette	WARN	TLS certificate errors will be ignored for this session
+1494945744406	geckodriver	INFO	Listening on 127.0.0.1:60362
+1494945745566	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.LEXU4fCtAkMy
+1494945745567	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args []
+1494945745575	geckodriver::marionette	INFO	Connecting to Marionette on localhost:34844
+1494945747442	Marionette	INFO	Listening on port 34844
+1494945748994	Marionette	WARN	TLS certificate errors will be ignored for this session
+1494945829233	geckodriver	INFO	Listening on 127.0.0.1:44928
+1494945830383	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.TGh2tSDWPDWv
+1494945830384	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args []
+1494945830394	geckodriver::marionette	INFO	Connecting to Marionette on localhost:45106
+1494945832416	Marionette	INFO	Listening on port 45106
+1494945833913	Marionette	WARN	TLS certificate errors will be ignored for this session
+1494945838529	geckodriver	INFO	Listening on 127.0.0.1:48069
+1494945839678	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.8Ggx78rrhmIa
+1494945839679	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args []
+1494945839686	geckodriver::marionette	INFO	Connecting to Marionette on localhost:45522
+1494945841601	Marionette	INFO	Listening on port 45522
+1494945843045	Marionette	WARN	TLS certificate errors will be ignored for this session
+1494945847751	geckodriver	INFO	Listening on 127.0.0.1:38236
+[Parent 12164] WARNING: pipe error: Broken pipe: file /build/firefox-tb8f7A/firefox-52.0.1+linuxmint1+serena/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 685
+1494945849042	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.0ZI7N4h0KPP5
+1494945849043	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args []
+1494945849051	geckodriver::marionette	INFO	Connecting to Marionette on localhost:46857
+1494945978387	geckodriver	INFO	Listening on 127.0.0.1:56780
+1494945979543	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.ZmEmepO3e28j
+1494945979544	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args []
+1494945979552	geckodriver::marionette	INFO	Connecting to Marionette on localhost:45569
+1494945981425	Marionette	INFO	Listening on port 45569
+1494945982969	Marionette	WARN	TLS certificate errors will be ignored for this session
+1494945987982	geckodriver	INFO	Listening on 127.0.0.1:37218
+1494945989327	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.0mf7EowsXWIq
+1494945989330	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args []
+1494945989338	geckodriver::marionette	INFO	Connecting to Marionette on localhost:34217
+1494945992471	Marionette	INFO	Listening on port 34217
+1494945994473	Marionette	WARN	TLS certificate errors will be ignored for this session
+1494946001781	geckodriver	INFO	Listening on 127.0.0.1:42747
+1494946003315	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.qUUEmtlEnCBB
+1494946003316	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args []
+1494946003322	geckodriver::marionette	INFO	Connecting to Marionette on localhost:45695
+1494946007010	Marionette	INFO	Listening on port 45695
+1494946008659	Marionette	WARN	TLS certificate errors will be ignored for this session
+1494946015760	geckodriver	INFO	Listening on 127.0.0.1:38079
+1494946017202	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.5uR6AQ4Ba5Nx
+1494946017203	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args []
+1494946017209	geckodriver::marionette	INFO	Connecting to Marionette on localhost:36142
+JavaScript error: resource://app/modules/URLBarZoom.jsm, line 24: TypeError: win is null
+1494946020177	Marionette	INFO	Listening on port 36142
+1494946021744	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 12775] WARNING: pipe error (26): Connection reset by peer: file /build/firefox-tb8f7A/firefox-52.0.1+linuxmint1+serena/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 322
+[Child 12775] WARNING: pipe error (14): Connection reset by peer: file /build/firefox-tb8f7A/firefox-52.0.1+linuxmint1+serena/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 322
+[Child 12775] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-tb8f7A/firefox-52.0.1+linuxmint1+serena/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 322
+[Child 12775] ###!!! ABORT: Aborting on channel error.: file /build/firefox-tb8f7A/firefox-52.0.1+linuxmint1+serena/ipc/glue/MessageChannel.cpp, line 2143
+[Child 12775] ###!!! ABORT: Aborting on channel error.: file /build/firefox-tb8f7A/firefox-52.0.1+linuxmint1+serena/ipc/glue/MessageChannel.cpp, line 2143
+JavaScript error: resource://app/modules/URLBarZoom.jsm, line 24: TypeError: win is null
+[Child 12486] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-tb8f7A/firefox-52.0.1+linuxmint1+serena/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 322
+[Child 12486] ###!!! ABORT: Aborting on channel error.: file /build/firefox-tb8f7A/firefox-52.0.1+linuxmint1+serena/ipc/glue/MessageChannel.cpp, line 2143
+[Child 12486] ###!!! ABORT: Aborting on channel error.: file /build/firefox-tb8f7A/firefox-52.0.1+linuxmint1+serena/ipc/glue/MessageChannel.cpp, line 2143
+1494946184292	geckodriver	INFO	Listening on 127.0.0.1:37259
+1494946185447	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.BicnhgUBOI7e
+1494946185451	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args []
+1494946185458	geckodriver::marionette	INFO	Connecting to Marionette on localhost:42197
+1494946187351	Marionette	INFO	Listening on port 42197
+1494946188825	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://app/modules/URLBarZoom.jsm, line 24: TypeError: win is null
+[Child 12914] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-tb8f7A/firefox-52.0.1+linuxmint1+serena/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 322
+[Child 12914] ###!!! ABORT: Aborting on channel error.: file /build/firefox-tb8f7A/firefox-52.0.1+linuxmint1+serena/ipc/glue/MessageChannel.cpp, line 2143
+[Child 12914] ###!!! ABORT: Aborting on channel error.: file /build/firefox-tb8f7A/firefox-52.0.1+linuxmint1+serena/ipc/glue/MessageChannel.cpp, line 2143
