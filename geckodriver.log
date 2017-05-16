@@ -1,0 +1,29 @@
+1494939662634	geckodriver	INFO	Listening on 127.0.0.1:45283
+1494939663908	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.IJWibiSRxVxQ
+1494939663909	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args []
+1494939663930	geckodriver::marionette	INFO	Connecting to Marionette on localhost:36485
+1494939670481	Marionette	INFO	Listening on port 36485
+1494939672430	Marionette	WARN	TLS certificate errors will be ignored for this session
+1494939895301	geckodriver	INFO	Listening on 127.0.0.1:47230
+1494939896443	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.yt5huk2ZGN2Y
+1494939896444	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args []
+1494939896451	geckodriver::marionette	INFO	Connecting to Marionette on localhost:37802
+1494939898265	Marionette	INFO	Listening on port 37802
+1494939899813	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: chrome://marionette/content/listener.js, line 906: TypeError: can't access dead object
+JavaScript error: https://secure.quantserve.com/aquant.js?a=p-xLEyC0FLYFXAH, line 20: NS_ERROR_UNEXPECTED: 
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x860010,name=PHttpChannel::Msg___delete__) Channel closing: too late to send/recv, messages will be lost
+
+1494939930652	geckodriver	INFO	Listening on 127.0.0.1:39261
+1494939931795	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.buBj5FwfHrFN
+1494939931796	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args []
+1494939931804	geckodriver::marionette	INFO	Connecting to Marionette on localhost:46224
+1494939933601	Marionette	INFO	Listening on port 46224
+1494939935088	Marionette	WARN	TLS certificate errors will be ignored for this session
+1494940164341	geckodriver	INFO	Listening on 127.0.0.1:36128
+1494940165481	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.2xMpHqU1iq0D
+1494940165482	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args []
+1494940165489	geckodriver::marionette	INFO	Connecting to Marionette on localhost:37434
+1494940167333	Marionette	INFO	Listening on port 37434
+1494940168945	Marionette	WARN	TLS certificate errors will be ignored for this session
