@@ -34,7 +34,9 @@ def repeat():
         to_run = sys.argv[1]
         seconds = sys.argv[2]
         threading.Timer(int(seconds), repeat).start()
+        print('output')
         os.system("python3 " + to_run)
+        print('end output')
 
 repeat()
 
